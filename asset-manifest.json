@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/anishkuls/reactwebsite/static/css/main.30954623.css",
+    "main.js": "/anishkuls/reactwebsite/static/js/main.f87ee821.js",
+    "static/js/787.21e6acac.chunk.js": "/anishkuls/reactwebsite/static/js/787.21e6acac.chunk.js",
+    "static/media/banner2.png": "/anishkuls/reactwebsite/static/media/banner2.7dbfe49e693bf9137a88.png",
+    "static/media/banner.png": "/anishkuls/reactwebsite/static/media/banner.bee5bf774bd36a2da7d4.png",
+    "static/media/Poppins-Regular.ttf": "/anishkuls/reactwebsite/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Poppins-Bold.ttf": "/anishkuls/reactwebsite/static/media/Poppins-Bold.cdb29a5d7ccf57ff05a3.ttf",
+    "static/media/Poppins-Black.ttf": "/anishkuls/reactwebsite/static/media/Poppins-Black.d8b850b920a5ef49d752.ttf",
+    "static/media/Image4.png": "/anishkuls/reactwebsite/static/media/Image4.aee2032e801a2ea5997b.png",
+    "static/media/wwdImage.png": "/anishkuls/reactwebsite/static/media/wwdImage.64e2d206ce1a6a6add20.png",
+    "static/media/logo.svg": "/anishkuls/reactwebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/anishkuls/reactwebsite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/anishkuls/reactwebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/anishkuls/reactwebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/anishkuls/reactwebsite/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/anishkuls/reactwebsite/index.html",
+    "main.30954623.css.map": "/anishkuls/reactwebsite/static/css/main.30954623.css.map",
+    "main.f87ee821.js.map": "/anishkuls/reactwebsite/static/js/main.f87ee821.js.map",
+    "787.21e6acac.chunk.js.map": "/anishkuls/reactwebsite/static/js/787.21e6acac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30954623.css",
+    "static/js/main.f87ee821.js"
+  ]
+}
