@@ -1,0 +1,39 @@
+@import "../../sassStyle/mixins";
+.what-we-do{
+
+  .wwd-text{
+
+    p{
+      color: #616161;
+    }
+
+    @include xlMinBreakPoint{
+        p{
+        width:572px;
+        }
+      }
+    
+  
+    @include customMinMaxBreakPoint(768,1280){
+        p{
+          width: fit-content;
+        }
+    }
+    
+  }
+}
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+  .what-we-do{
+
+    .wwd-text{
+        
+        max-width: 500px;
+        margin: auto;
+
+
+    }
+
+  }
+}

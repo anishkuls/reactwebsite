@@ -1,0 +1,72 @@
+@import "../../sassStyle/mixins.scss";
+
+
+
+.banner {
+    .carousel-inner {
+        position: relative;
+
+        .carousel-item {
+            img {
+                filter: brightness(40%);
+            }
+
+            .carousel-caption {
+                height: 100%;
+
+                div {
+
+                    >p {
+                        color: white;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    @include customMinMaxBreakPoint(390, 768) {
+        .carousel-inner {
+            .carousel-item {
+                height: 537px;
+
+                img {
+                    filter: brightness(40%);
+                    height: inherit;
+                    object-fit: cover;
+                }
+
+                .carousel-caption {
+                    height: 80%;
+
+                    div {
+
+                        h1 {
+                            width:306px;
+                            font-size: 32px !important;
+                        }
+
+                        >p {
+                            color: white;
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .carousel-inner ~button{
+            display: none;
+        }
+    }
+
+    
+}
+
+.banner + .full-header{
+    position:absolute;
+    top:0;
+    z-index: 2;
+    width: inherit;
+}

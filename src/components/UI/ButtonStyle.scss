@@ -1,0 +1,11 @@
+@import "../../App.scss";
+
+.customBtn{
+    background-color: $color-primary;
+    outline: none;
+    border: none;
+    width: 160px;
+    height: 48px;
+    border-radius: 25px;
+}
+

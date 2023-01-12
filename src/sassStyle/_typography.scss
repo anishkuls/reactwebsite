@@ -1,0 +1,24 @@
+@import './mixins';
+
+h1{
+    font-family: Poppins-Black; 
+    font-size: 64px !important;
+}
+
+h2{
+    font-family: Poppins-Black; 
+    font-size: 48px !important;
+
+    @include smMaxBreakPoint{
+        font-size: 28px !important;
+    }
+    
+}
+h3{
+    font-family: Poppins-Regular;
+}
+p{
+    font-family: Poppins-Regular;
+    font-size: 18px;
+    color: black;
+}

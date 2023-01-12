@@ -1,0 +1,24 @@
+@import "./sassStyle/variables.scss";
+@import "./sassStyle/typography.scss";
+@import "./sassStyle/mixins.scss";
+
+@font-face {
+    font-family: "Poppins-Black";   
+    src: local("Poppins-Black"),
+      url("./fonts/Poppins-Black.ttf") format("truetype");
+  }
+
+@font-face {
+    font-family: "Poppins-Regular";  
+    src: local("Poppins-Regular"),
+      url("./fonts/Poppins-Regular.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Poppins-Bold";  
+    src: local("Poppins-Bold"),
+      url("./fonts/Poppins-Bold.ttf") format("truetype");
+  }
+
+*{
+  font-family: Poppins-Regular;
+}

@@ -1,0 +1,31 @@
+@import "../../sassStyle/variables.scss";
+@import "../../sassStyle/mixins";
+
+.our-cp{
+    background-color: $color-bg-light;
+
+    .tab-heading{
+        ul{
+            li{
+                a{
+                    font-size: 48px;
+                    color: $color-font-light;
+                }
+                @include customMinMaxBreakPoint(370,768){
+                    a{
+                        font-size: 22px;
+                    }
+                }
+
+                .active{
+                    background-color: rgba(255, 255, 255, 0);
+                    color:$color-font-main;
+                    font-family: Poppins-Bold;
+                    border-radius: 0px;
+                    border-bottom: 5px solid $color-primary;
+                    
+                }
+            }
+        }
+    }
+}

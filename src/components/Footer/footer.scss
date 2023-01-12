@@ -1,0 +1,50 @@
+@import "../../sassStyle/variables.scss";
+
+.footer {
+    background-color: $color-footer-dark;
+    color: white;
+
+    .logo-icon {
+        .logo {
+            font-family: "Poppins-Black";
+            font-size: 34px;
+        }
+        .footer-icons{
+            *{
+                margin-right: 20px;
+            }
+        }
+    }
+
+    .all-list {
+        .contact-list {
+            >li {
+                list-style: none;
+            }
+        }
+
+        ul {
+            padding-left: 0px;
+            li {
+
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 0px;
+
+
+
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+
+    }
+}
+
+.bottom-footer{
+    background-color: $color-bottom-footer;
+    color: white;
+    
+}

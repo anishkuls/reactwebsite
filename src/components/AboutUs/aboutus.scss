@@ -1,0 +1,32 @@
+@import "../../sassStyle/mixins";
+.about-us{
+
+  .about-text{
+
+    p{
+      color: #616161;
+    }
+    
+    @include xlMinBreakPoint{
+      p{
+      width:572px;
+      }
+    }
+    
+  }
+}
+
+$breakpoint-tablet: 768px;
+@media (max-width: $breakpoint-tablet) {
+  .about-us{
+
+    .about-text{
+        
+        max-width: 500px;
+        margin: auto;
+
+
+    }
+
+  }
+}
