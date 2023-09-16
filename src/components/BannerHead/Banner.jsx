@@ -15,6 +15,14 @@ const Banner = () => {
             zIndex:"999"
         }
     }
+    
+  function vibrateSimple() {
+    navigator.vibrate(200);
+  }
+
+  function vibratePattern() {
+    navigator.vibrate([100, 200, 200, 200, 500]);
+  } 
   return (
  
     <>
@@ -30,7 +38,7 @@ const Banner = () => {
         <div>
         <h1>business template design</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
-        <Button text="View More"/>            
+        {"vibrate" in navigator ? <Button text="View Mores" onClick={vibrateSimple} /> : null}         
         </div>
       </div>  
     </div>
